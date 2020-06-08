@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <style>
+    .login_header{
+        height: 44px;
+        display: flex;
+        line-height: 44px;
+    }
+    .login_header .goback{
+        width: 10%;
+    }
+    .login_header .goback img{
+        width: 100%;
+    }
+    .login_header span{
+        display: block;
+        margin-left: 25%;
+        font-size: 17px;
+    }
+    /* 输入框 */
+    .input_box{
+        margin-top: 3rem;
+    }
+    .input_box .input_text{
+        height: 50px;
+        display: flex;
+        border-bottom: 1px solid #efefef;
+    }
+    .input_box .input_text input{
+        width: 100%;
+        height: 100%;
+        border: 0;
+        padding-left: 1rem;
+        font-size: 16px;
+        outline: none;
+        border-bottom: 1px solid #efefef;
+    }
+    .input_box .input_text button{
+        border: none;
+        width: 120px;
+        height: 23px;
+        line-height: 23px;
+        background-color: #fff;
+        border-left: 2px solid #efefef;
+        font-size: 14px;
+        margin-top: 12px;
+        color: rgb(125, 125, 125);
+        outline: none;
+    }
+    /* 登录按钮 */
+    a{
+        text-decoration: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .login_box .login_btn,.login_btn2{
+        width: 90%;
+        height: 50px;
+        display: block;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 2rem;
+        margin-top: 10px;
+        margin-left: 5%;
+    }
+    .login_box .login_btn{
+        background-color: rgb(255, 187, 179);
+        color: #fff;
+    }
+    .login_box .login_btn2{
+        color: red;
+        border: 1px solid red;
+    }
+    .login_box .login_text {
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 5%;
+        
+    }
+    .login_box .login_text a{
+        color: rgb(125, 125, 125);
+        -webkit-tap-highlight-color: transparent;
+    }
+    .login_box .login_text .register{
+        float: right;
+    }
+    </style>
+</head>
+<body>
+    <div class="login_box">
+        <div class="login_header">
+            <div class="goback" onclick="window.location.href='../index.html'"><img src="../img/返回.png"></div>
+            <span>京东登录注册</span>
+        </div>
+        <div class="input_box">
+            <p class="input_text">
+                <input type="text" placeholder="请输入手机号">
+            </p>
+            <p class="input_text">
+                <input type="text" placeholder="请输入收到的验证码">
+                <button>获取验证码</button>
+            </p>
+        </div>
+        <a href="" class="login_btn">登录</a>
+        <a href="" class="login_btn2">一键登录</a>
+        <div class="login_text">
+            <a href="" class="pwd_login">账号密码登录</a>
+            <a href="" class="register">新用户注册</a>
+        </div>
+    </div>
+</body>
+</html>

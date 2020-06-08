@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/shopCart.css">
+</head>
+<body>
+        <div class="box">
+                
+            <div class="header_bar">
+                <div class="back"><img src="../img/返回.png"></div>
+                <div class="cart">购物车</div>
+                <div id="menu"><img src="../img/省略号2.png"></div>
+            </div>  
+
+            <div class="header_nav" style="display: none;">
+                <div class="header_nav_item">
+                    <img src="../img/首页3.png"><a href="../index.html">首页</a>
+                </div>
+                <div class="header_nav_item">
+                    <img src="../img/分类3.png"><a href="./sort.html">分类搜索</a>
+                </div>
+                <div class="header_nav_item">
+                    <img src="../img/购物车3.png"><a href="./shopCart.html">购物车</a>
+                </div>
+                <div class="header_nav_item">
+                    <img src="../img/我的3.png"><a href="./my.html">我的京东</a>
+                </div>
+            </div>
+        
+            <div class="shopcart_login_box">
+                <div class="shopcart_login">
+                    <span>登录后可同步账户购物车中的商品</span>
+                    <div class="login"><a href="./login.html">登录</a></div>
+                </div>
+            </div>
+        
+            <div class="shopcart_empty">
+                <div class="cartImg"><img src="../img/shopcart.png"></div>
+                <p>登录后可同步购物车中商品</p>
+            </div>
+
+            <div class="footer">
+                <ul>
+                    <li><a href="../index.html"><img src="../img/footer/首页.png"><p>首页</p></a></li>
+                    <li><a href="./sort.html"><img src="../img/footer/分类.png"><p>分类</p></a></li>
+                    <li><a href="./find.html"><img src="../img/footer/发现.png"><p>发现</p></a></li>
+                    <li><a class="focus" href="./shopCart.html"><img src="../img/footer/购物车2.png"><p>购物车</p></a></li>
+                    <li><a href="./my.html"><img src="../img/footer/我的.png"><p>我的</p></a></li>
+                </ul>
+            </div>
+        </div>
+</body>
+<script>
+    document.getElementById("menu").addEventListener("click",function(){
+        // document.querySelector(".header_nav").style.display="block";
+        var div = document.querySelector(".header_nav");
+        if(div.style.display == "none"){
+            div.style.display = "block";
+        }else{
+            div.style.display = "none";
+        }
+    });
+    
+</script>
+</html>

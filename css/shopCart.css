@@ -1,0 +1,105 @@
+.header_bar{
+    display: flex;
+    background: #fff;
+    border: 1px solid rgba(247, 247, 247)
+}
+.header_bar .back{
+    width: 10%;
+}
+.header_bar .back img{
+    width: 100%;
+}
+.header_bar .cart{
+    width: 80%;
+    text-align: center;
+    line-height: 41.5px;
+}
+.header_bar #menu{
+    width: 10%;
+}
+.header_bar #menu img{
+    width: 100%;
+}
+
+/* ------------------------------------------------------ */
+.header_nav{
+    width: 125px;
+    background-color: rgba(0,0,0,.9);
+    right: 10px;
+    top: 53px;
+    border-radius: 40px;
+    position: absolute;
+    border-top-right-radius: 0px;
+}
+.header_nav .header_nav_item{
+    height: 40px;
+    line-height: 40px;
+    margin-top: 5px;
+    border-bottom: 1px solid #fff;
+}
+.header_nav .header_nav_item a{
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+.header_nav .header_nav_item img{
+    width: 25px;
+    /* position: absolute; */
+    margin: 5px;
+    margin-right: 10px;
+}
+
+/* ---------------------------------------------------------- */
+.shopcart_login_box{
+    width: 100%;
+    height: 60px;
+    background: #fff;
+}
+.shopcart_login_box .shopcart_login{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 10px;
+    line-height: 40px;
+}
+.shopcart_login_box .shopcart_login span{
+    font-size: 14px;
+    text-align: center;
+}
+.shopcart_login_box .shopcart_login .login{
+    width: 4rem;
+    height: 30px;
+    background: #f00;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.shopcart_login_box .shopcart_login .login a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px;
+    display: block;
+}
+
+/* --------------------------------------------------------------- */
+.shopcart_empty{
+    width: 100%;
+    padding: 70px 0 65px;
+    text-align: center;
+}
+.shopcart_empty .cartImg{
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+}
+.shopcart_empty .cartImg img{
+    width: 100%;
+}
+.shopcart_empty p{
+    margin-top: 5px;
+}
+

@@ -1,0 +1,19 @@
+.container .find_box{
+    width: 90%;
+    height: 8rem;
+    background-color: #fff;
+    margin: 3rem auto;
+}
+.container .find_box p {
+    text-align: center;
+    line-height: 4rem;
+}
+.container .find_box button{
+    width: 40%;
+    height: 2rem;
+    background: #f00;
+    margin: 0 auto;
+    color: #fff;
+    border: none;
+    display: block;
+}

@@ -1,0 +1,80 @@
+.header-top{
+    height: 3rem;
+    margin-top: 2%;
+    display: flex;   
+}
+.header-top .back{
+    width: 32px;
+    height: 32px;
+}
+.header-top .back img{
+    width: 100%;
+}
+.header-top .search{
+    width: 84%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    background: rgba(247, 247, 247,.9);
+    height: 2.1rem;
+}
+.header-top .search .search_input{
+    width: 74%;
+    height: 2rem;
+    outline: none;
+    margin: 0 auto;
+    display:flex;
+    border: none;
+    background: rgba(247, 247, 247,.9);
+}
+.header-top .search a{
+    width: 2rem;
+    height: 2rem;
+    float: right;
+    margin-top: -30px;
+    margin-right: 1rem;
+    text-align: center;
+    line-height: 2rem;
+}
+.header-top .search a img{
+    width: 1rem;
+    height: 1rem;
+    text-align: center;    
+}
+/* 手机列表 */
+.phone_list .phone_item{
+    display: flex;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+.phone_list .phone_item .phone_cover{
+    width: 120px;
+    height: 120px;
+}
+.phone_list .phone_item .phone_cover img{
+    width: 100%;
+}
+.phone_list .phone_item .phone_info{
+    margin-left: 5%;
+}
+.phone_list .phone_item .phone_info_above .phone_title{
+    font-size: 14px;
+}
+.phone_list .phone_item .phone_info_above .phone_attr span{
+    font-size: 12px;
+    padding: 0 5px;
+    background: #f2f2f7;
+}
+.phone_list .phone_item .phone_info_below{
+    margin-top: 5%;
+}
+.phone_list .phone_item .phone_info_below .phone_price{
+    font-size: 18px;
+    color: red;
+    margin-top: 3px;
+}
+.phone_list .phone_item .phone_info_below .phone_shop{
+    font-size: 14px;
+    color: #999;
+}

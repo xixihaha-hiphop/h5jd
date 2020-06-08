@@ -1,0 +1,80 @@
+.my_header_bar{
+    width: 100%;
+    height: 3rem;
+    background-color: #fff;
+}
+.my_header_bar p{
+    text-align: center;
+    line-height: 3rem;
+}
+.my_login_box{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    opacity: .6;
+    display: flex;
+}
+.my_login_box .my_img{
+    width: 15%;
+    margin: auto 5%;
+}
+.my_login_box .my_img img{
+    width: 100%;  
+}
+.my_login_box .my_login{
+    width: 100%;
+}
+.my_login_box .my_login a{
+    
+    color: #000;
+    line-height: 100px;
+    display: flex;
+    /* height: 50px; */
+    /* display: inline-block; */
+}
+.my_login_box .my_login a p{
+    width: 30%;
+}
+.my_login_box .my_login a img{
+    width: 10%; 
+    height: 10%;
+    margin-top: 35px;
+}
+
+/* ------------------------------------------------- */
+.group{
+    height: 72px;
+    background-color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.group .group_list{
+    height: 42px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    line-height: 42px;
+}
+.group .group_list .option{
+    width: 25%;
+    padding-top: 5px;
+}
+.group .group_list .option a{
+    color: #666;
+    font-size: 12px;
+}
+.group .group_list .option a img{
+    width: 20px;
+   
+}
+.group .group_list .option p{
+    margin-top: -15px;
+}
+.group .group_list .option3{
+    width: 33%;
+    margin-top: 10px;
+    
+}
+.group .group_list .option3 p{
+    font-size: 15px;
+}
